@@ -11,6 +11,20 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&display=swap');
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+*{
+    padding: 0;
+    margin: 0;
+    
+  }
+
+#loader{
+  position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: white;
+    z-index: 99999;
+}
 
 body, html {
   height: 100%;
@@ -83,9 +97,15 @@ hr{
     width: 50%;
     align-items:center;
 }
+.small-gap {
+  line-height: 1;
+}
+.more-small-gap{
+  line-height: 0.5;
+}
 </style>
-<body>
-
+<body onload="loadfun()">
+<div id="loader" class="w3-jumbo w3-center small-gap" > <div style="margin-top: 50%;">WELCOME.</div><div class="more-small-gap"><span class="w3-xlarge "><b>TO SHAIKH MUDASSIRS INTERACTIVE PORTFOLIO<b></span></div></div>
 
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card" id="myNavbar">
@@ -117,12 +137,12 @@ hr{
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small" ><b>Hello I'm Shaikh Mudassir</b></span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium" ><b>Hello I'm Shaikh Mudassir</b></span><br>
-    <span class="w3-large"><span class="w3-wide" style="font-size: 23px;font-weight: lighter;">I'm the Founder and CEO of Shaikh,I'm a dedicated programmer and web developer. Welcome to my portfolio, I hope you all will find this helpfull.</span></span>
+    <span class="w3-xxxlarge w3-hide-small w3-wide" ><b>I<span class="w3-text-orange">'</span>M <br>SHAIKH <br>MUDASSIR<span class="w3-text-orange">.</span></b></span><br>
+    <span class="w3-xxxlarge w3-hide-large w3-hide-medium w3-wide" ><b>I<span class="w3-text-orange">'</span>M <br>SHAIKH <br>MUDASSIR<span class="w3-text-orange">.</span></b></span><br>
+    <span class="w3-large"><span class="w3-wide" style="font-size: 23px;font-weight: lighter;">Hello I'm a Dedicated programmer and software engineer, and welcome to my Interactive portfolio and resume.</span></span>
     <p><a href="#about" class="w3-padding w3-large w3-margin-top w3-opacity w3-hover-opacity-off" ><img src="https://static.thenounproject.com/png/54414-200.png" style="filter: invert(100%);width: 80px;"></a></p>
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div class="w3-display-bottomleft w3-text-orange w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -320,5 +340,13 @@ function w3_close() {
 }
 </script>
 
+<script>
+
+var preloader = document.getElementById('loader');
+function loadfun(){
+    preloader.style.display = 'none';
+}
+
+</script>
 </body>
 </html>
