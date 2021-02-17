@@ -13,6 +13,6 @@ about your products and as many people around the globe can find your service an
 ## Support Our Project 
 
 You Can Help Our Programme By simply Donating and buying us this url
-'''
-https://www.shaikh.com
+'''html
+<a href="https://www.shaikh.com">Our Website</a>
 '''
