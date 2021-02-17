@@ -6,13 +6,12 @@ and let people know more about you and your business.
 
 ## Advantages of having an online platform
 
-There are lot of advantages of having a business or portfolio websites online first of all 
-it helps you to advertise your business online and let people connect you and give you feedback you 
-about your products and as many people around the globe can find your service and product from any part of the globe  
+There are lot of advantages of having a business or portfolio websites online 
+- first of all it helps you to advertise your business online and let people connect you and give you feedback you 
+about your products 
+- as many people around the globe can find your service and product from any part of the globe  
 
 ## Support Our Project 
 
-You Can Help Our Programme By simply Donating and buying us this url
-'''html
-<a href="https://www.shaikh.com">Our Website</a>
-'''
+__You Can Help Our Programme By simply Donating and buying us this url__
+> https://www.shaikh.com
