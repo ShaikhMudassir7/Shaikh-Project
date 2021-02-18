@@ -2,7 +2,7 @@
 
 Shaikh Is just a website where you can contact some of the most skilled web-developers, 
 and let them help you and to make you a beautiful website to flourish your business online
-and let people know more about you and your business.
+and also let people know more about you and your business.
 
 ## Advantages of having an online platform
 
